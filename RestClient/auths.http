@@ -1,0 +1,23 @@
+######### NORMAL OPERATION  ########### 
+
+### get all 
+GET http://localhost:3000/auths 
+
+
+### login
+POST http://localhost:3000/auths/login
+Content-Type: application/json
+
+{
+    "username":"nada",
+    "password":"nada"
+}
+
+### login
+POST http://localhost:3000/auths/register
+Content-Type: application/json
+
+{
+    "username":"test10",
+    "password":"test"
+}

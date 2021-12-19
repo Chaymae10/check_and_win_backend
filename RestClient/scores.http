@@ -1,0 +1,15 @@
+### Read all scores
+GET http://localhost:3000/scores/admin 
+
+
+###
+GET http://localhost:3000/scores/top
+
+
+
+
+
+
+
+
+

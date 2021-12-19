@@ -1,0 +1,26 @@
+######### NORMAL OPERATION  ###########
+
+### GET USER BY username 
+GET http://localhost:3000/users/admin
+
+
+### get all users 
+GET http://localhost:3000/users
+
+###update username
+PUT http://localhost:3000/users/admin
+Content-Type: application/json
+
+{
+    "username":"loubna"
+}
+
+
+### UPDATE PASSWORD
+PUT http://localhost:3000/users/updatePassword/nada.kaji
+Content-Type: application/json
+
+{
+    "oldPassword":"admin",
+    "nPassword":"123"
+}
